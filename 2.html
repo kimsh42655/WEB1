@@ -3,18 +3,22 @@
     <head>
         <title>방학 계획 - 운동</title>
         <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <h1><a href = "index.html">방학 계획</a></h1>
-        <ol>
-            <li><a href = "1.html">알바</a></li>
-            <li><a href = "2.html">운동</a></li>
-            <li><a href = "3.html">공부</a></li>
-        </ol>
-
-        <h2><a href = "https://enermeca.modoo.at/" target = "_blank" title = "에너메카 휘트니스">에너메카</a></h2>
-        <img src="fitness.jpg" width="50%">
-        <p><strong>요일</strong> : 가능한 매일</p>
-        <p><strong>시간</strong> : 평일엔 알바 끝나고, 주말엔 점심먹고</p>
+        <div id="grid">
+            <ol>
+                <li><a href = "1.html" class="saw">알바</a></li>
+                <li><a href = "2.html" class="saw" id="active">운동</a></li>
+                <li><a href = "3.html">공부</a></li>
+            </ol>
+            <div id="article">
+                <h2><a href = "https://enermeca.modoo.at/" target = "_blank" title = "에너메카 휘트니스">에너메카</a></h2>
+                <img src="fitness.jpg" width="75%">
+                <p><strong>요일</strong> : 가능한 매일</p>
+                <p><strong>시간</strong> : 평일엔 알바 끝나고, 주말엔 점심먹고</p>
+            </div>
+        </div>
     </body>
 </html>
